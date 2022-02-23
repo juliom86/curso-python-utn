@@ -1,0 +1,27 @@
+La aplicacion y finalizacion de la misma la hicimos entre tres compañeros ( El grupo que siguio en los anteriores modulos intermedio y avanzado)
+Marcos Manini
+Mauricio Corbato
+Julio Mielniczuk Lapp
+
+La app arranca del archivo ABMC y realiza el Alta, Eliminacion, Modificacion y consulta de los valores ingresado a la app
+Los datos del Observador quedan registrado en un archivo .log
+Se crea una base de datos cojn la ORM de Peewee
+
+
+Operador temas hay que anular con # para que funcione en el vscode debido a que nos crea conflicto la libreria shelve. 
+
+Se deja la pagina de la libreria como ejemplo
+
+import shelve
+https://docs.python.org/3/library/shelve.html?highlight=shelve
+
+Para el observador y los datos de regustro del mismo se utilizo la libreria logging
+
+import logging. se deja la pagina como referencia
+
+https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+
+abajo de concrete observer A se creo abajo la opcion concret observer B
+
+se instancio la clase concrete observer B
+
